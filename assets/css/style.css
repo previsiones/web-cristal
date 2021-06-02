@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #3498db;
+  color: #999634;
   text-decoration: none;
 }
 
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #3498db;
+  color: #559b4e;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -359,16 +359,16 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: whitesmoke;
+  color: #000;
 }
 
 #hero h2{
-  color: whitesmoke;
+  color:#000;
   margin-bottom: 50px;
   font-size: 24px;
 }
 #hero p {
-  color: whitesmoke;
+  color: #000;
 }
 
 #hero .btn-get-started {
@@ -816,12 +816,12 @@ section {
 
 .more-services .card-body {
   z-index: 10;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 15px 30px;
+  background: rgba(252, 249, 249, 0.9);
+  padding: 50px 50px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   transition: ease-in-out 0.4s;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .more-services .card-title {
@@ -857,7 +857,16 @@ section {
 .more-services .card:hover .read-more a, .more-services .card:hover .card-title, .more-services .card:hover .card-title a, .more-services .card:hover .card-text {
   color: #fff;
 }
-
+.more-services .btn-primary {
+  color: #fff;
+  background-color: #999634;
+  border-color: #cac772;
+}
+.more-services .btn-primary:hover {
+  color: #fff;
+  background-color: #999634;
+  border-color: #cac772;
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
