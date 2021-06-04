@@ -11,8 +11,7 @@
 body {
   background:#fff ;
   font-family: 'Montserrat', sans-serif;
-
-
+  
 }
 
 a {
@@ -35,7 +34,10 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-
+.informacion{
+  width: auto;
+  height: 50px;
+}
 
 a:hover {
   color: #999634;
@@ -1293,6 +1295,15 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
+  padding: 0px;
+  background: #f9f9f9;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #f9f9f9;
+}
+.pricing .pre .box  {
   padding: 0px;
   background: #f9f9f9;
   text-align: center;
