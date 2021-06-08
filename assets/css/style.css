@@ -25,6 +25,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Rubik', sans-serif;
+  margin-top: 50px;
 }
   
 /*--------------------------------------------------------------
@@ -36,7 +37,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color:#e8eef1a9 ;
 
 }.card{
-  background-color: #e8eef1a9;
+  background-color:#f1f5f3;
+  margin-top: 0px;
+
 }
 .back-to-top {
   position: fixed;
@@ -463,7 +466,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .section-title h2 {
@@ -483,7 +486,7 @@ section {
 }
 
 .section-title h2::before {
-  margin: 0 15px 10px 0;
+  margin: 0 15px 0 0;
 }
 
 .section-title h2::after {
@@ -491,12 +494,16 @@ section {
 }
 
 .section-title p {
-  margin: 15px 0 0 0;
+  margin: 15px 0 15px 0;
 }
 
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+.about .container.row content{
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 .clients {
   background: #99963460;
@@ -756,7 +763,8 @@ section {
 
 .services .title {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
+  margin-top: 50px;
   font-size: 18px;
 }
 
@@ -786,12 +794,12 @@ section {
 # More Services
 --------------------------------------------------------------*/
 .more-services {
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .more-services .card {
   border: 0;
-  padding: 160px 20px 20px 20px;
+  padding: 50px 20px 50px 20px;
   position: relative;
   width: 100%;
   background-size: cover;
