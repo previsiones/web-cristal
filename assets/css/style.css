@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background:#fff ;
+  background:#ffff ;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -24,10 +24,14 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: ;
   margin-top: 50px;
 }
   
+p{
+  margin-bottom: 50px;
+  
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -456,12 +460,13 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 0px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
 .section-bg {
-  background-color: #999634;
+  background-color: #f1f5f3;
+  ;
 }
 
 .section-title {
@@ -486,7 +491,7 @@ section {
 }
 
 .section-title h2::before {
-  margin: 0 15px 0 0;
+  margin:  0 0 10px 15px;
 }
 
 .section-title h2::after {
@@ -1283,6 +1288,7 @@ section {
   position: relative;
   overflow: hidden;
   border: 2px solid #f9f9f9;
+  margin-bottom: 50px;
 }
 .pricing .pre .box  {
   padding: 0px;
@@ -1629,7 +1635,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #fff;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 12px 12px 12px 12px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
   color: #222222;
   font-size: 14px;
